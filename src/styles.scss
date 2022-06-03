@@ -1,0 +1,33 @@
+@import "./app/dist/Scss/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /*font-size: 62.5%;*/
+    text-decoration: none;
+}
+
+body{
+    background-color: $background-color;
+}
+
+li{
+    list-style: none;
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
+} 
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    width: 350px;
+    margin: 50px auto;    
+}

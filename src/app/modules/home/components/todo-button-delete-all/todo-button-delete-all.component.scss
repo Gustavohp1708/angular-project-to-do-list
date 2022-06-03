@@ -1,0 +1,25 @@
+@import "../../../../dist/Scss/variables.scss";
+
+:host{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    button{
+        border: none;
+        border-radius: 50px;
+        background: $danger-color;
+
+        font-style: 16px;
+        color: $tertiary-color;
+        font-weight: bold;
+
+        width: 60%;
+        padding: 10px;
+    } button:hover{
+        background-color: #d8032a;
+        transition: 0.4s;
+    }
+}
